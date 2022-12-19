@@ -1,6 +1,7 @@
 
 # Package Files #
 *.jar
+/*.jar
 *.war
 *.ear
 
@@ -10,7 +11,8 @@
 .settings/
 
 # Intellij
-.idea/
+/.idea/
+Roadmap_Documentation/.idea/
 *.iml
 *.iws
 
@@ -19,7 +21,9 @@
 
 # Maven
 log/
+/log/
 target/
+/target/
 
 # Inclusions
 !lib/**
@@ -27,6 +31,8 @@ target/
 # Compiled Files
 *.class
 bin/
+/bin/
 build/
+/build/
 /bin1/
 java/build/**
