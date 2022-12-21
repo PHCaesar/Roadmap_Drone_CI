@@ -1,5 +1,0 @@
-# Drone CI
-
-include::{docfile}/../Chapters/Topic-Point-One.adoc[];
-
-include::{docfile}/../Chapters/Topic-Point-Two.adoc[];

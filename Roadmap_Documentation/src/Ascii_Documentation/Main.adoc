@@ -1,10 +1,12 @@
 
 :doctype: book
+:toc-title: Table of contents
+:toclevels: 2
+:toc-class:
+:toc: middle
 
 
-include::{docdir}/Cover.adoc[];
+include::Cover.adoc[]
 
+include::Topics.adoc[]
 
-:toc: ## Table of Contents
-
-include::{docdir}/Topics.adoc[];

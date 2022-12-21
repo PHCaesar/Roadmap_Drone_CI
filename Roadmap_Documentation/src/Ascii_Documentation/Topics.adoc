@@ -1,2 +1,3 @@
 
-include::{docfile}/../Cserich Philipp/Topic-DroneCI.adoc[];
+
+include::Cserich_Philipp/Topic-DroneCI.adoc[]

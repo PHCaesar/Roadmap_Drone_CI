@@ -1,0 +1,22 @@
+## When should you use Drone CI?
+
+### Use Cases
+
+- Your products need to be tested, built and deployed onto a Server
+- You do not want to do the deployment process by hand
+**(extremely important when your production software is updated frequently)**
+- You are using a microservices architecture and want to automate the deployment of individual services.
+- You want a lightweight and easy-to-use CI/CD platform that can scale to meet the needs of your team.
+
+Overall, Drone can be a good choice if you are looking for a flexible and feature-rich CI/CD platform that is well-suited to a variety of use cases. However, it may not be the best fit for every team or project, and it is worth considering the specific needs and requirements of your team before deciding on a CI/CD solution.
+
+### Requirements
+
+
+### Comparison
+[width="90%",align="center",frame="topbot"]
+|=======
+| Technology |Jenkins | Drone
+| 2 |3 |4
+| 3 |5 |6
+|=======

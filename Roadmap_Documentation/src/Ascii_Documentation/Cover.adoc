@@ -1,5 +1,8 @@
 Paper name
 ==========
 
+:doctype: book
 :author: Cserich Philipp
+:authorinitials: CP
+:title: DRONE CI
 
