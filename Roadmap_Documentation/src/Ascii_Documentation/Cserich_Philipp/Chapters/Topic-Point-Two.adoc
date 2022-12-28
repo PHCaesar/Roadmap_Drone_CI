@@ -12,11 +12,25 @@ Overall, Drone can be a good choice if you are looking for a flexible and featur
 
 ### Requirements
 
+- Version Management tool in use *(Github / Gitlab / Bitbucket)*
+
+- Buildable source code
+- Docker installed
+
+[%always]
+<<<
 
 ### Comparison
+
+image::Pictures/Drone vs Jenkins.PNG[]
+
 [width="90%",align="center",frame="topbot"]
 |=======
-| Technology |Jenkins | Drone
-| 2 |3 |4
-| 3 |5 |6
+| Technology |**Jenkins** | **Drone**
+| Configuration | UI configured | .drone.yml file
+| Extension Points | Hilariously many | few verified options
+| Dependencies & Ressources| Manual | Automatic
+| Scalability & Performance| Powerful & Complex| lightweight & easy to use
 |=======
+
+Drone and Jenkins are both capable CI/CD platforms that can be used to automate the software development and delivery process. The right choice for your team will depend on your specific needs and requirements, as well as the size and complexity of your project.

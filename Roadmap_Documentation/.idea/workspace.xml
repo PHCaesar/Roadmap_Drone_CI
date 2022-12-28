@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="760f1cf9-75dd-4010-957f-302c0ab57026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roadmap_Documentation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Five.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Four.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-One.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Two.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Topic-DroneCI.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cover.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cover.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich Philipp/Chapters/Topic-Point-One.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich Philipp/Chapters/Topic-Point-Two.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich Philipp/Topic-DroneCI.adoc" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Pictures/Drone vs Jenkins.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Sources.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-One.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-One.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Two.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Two.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Main.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Main.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Topics.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Topics.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Main.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Philipp\Roadmap_Drone_CI\Roadmap_Documentation\src\Ascii_Documentation" />
+      <recent name="C:\Users\Philipp\Roadmap_Drone_CI\Roadmap_Documentation\src\Ascii_Documentation\Pictures" />
       <recent name="C:\Users\Philipp\Roadmap_Drone_CI\Roadmap_Documentation\src\Ascii_Documentation\Cserich Philipp\Topics" />
     </key>
   </component>
@@ -85,7 +69,9 @@
       <updated>1671455258848</updated>
       <workItem from="1671455260199" duration="3973000" />
       <workItem from="1671523436463" duration="147000" />
-      <workItem from="1671651561450" duration="5157000" />
+      <workItem from="1671651561450" duration="5243000" />
+      <workItem from="1671693908473" duration="938000" />
+      <workItem from="1672223305095" duration="5372000" />
     </task>
     <servers />
   </component>

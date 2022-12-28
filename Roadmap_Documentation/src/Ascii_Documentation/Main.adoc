@@ -10,3 +10,6 @@ include::Cover.adoc[]
 
 include::Topics.adoc[]
 
+include::Abstract.adoc[]
+
+include::Sources.adoc[]

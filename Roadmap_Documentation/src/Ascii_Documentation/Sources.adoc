@@ -1,0 +1,13 @@
+## Sources
+### Official Documentation
+- https://docs.drone.io/
+
+### Blogs
+- https://kari-marttila.medium.com/using-drone-ci-56383b978490
+- https://dev.to/alex_barashkov/getting-started-with-open-source-drone-ci-4pgc
+- https://samuelsson.dev/how-to-install-and-configure-drone-ci-on-a-self-hosted-server/
+- https://www.docker.com/blog/bring-continuous-integration-to-your-laptop-with-the-drone-ci-docker-extension/
+
+### Docker Hub Ressources
+- https://hub.docker.com/r/cimg/openjdk
+- https://hub.docker.com/r/circleci/python

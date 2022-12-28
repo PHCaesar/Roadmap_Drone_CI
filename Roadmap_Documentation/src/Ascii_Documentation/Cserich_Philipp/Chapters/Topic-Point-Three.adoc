@@ -1,1 +1,43 @@
 ## Setup
+
+### Step 1 : Preparation
+#### Create an OAuth App
+*(An OAuth app is used to centralize logins and password handling - One centered Authentication without handing your password to every third party Application)*
+
+1. Go to the GitHub developer settings page by clicking on your profile picture in the top right corner of the page and selecting "Settings" from the drop-down menu.
+
+2. In the left-hand menu, click on "OAuth Apps" under the "Developer Settings" heading.
+
+3. Click on the "New OAuth App" button.
+
+4. In the "Application name" field, enter a name for your OAuth app.
+
+5. In the "Homepage URL" field, enter the URL of your app's homepage.
+
+6. In the "Authorization callback URL" field, enter the URL that GitHub should redirect to after the user has authorized your app.
+
+7. Click the "Create OAuth App" button.
+
+GitHub will then create your OAuth app and display a page with your client ID and client secret. These values will be used to authenticate your app when it makes API requests to GitHub.
+
+You will also need to configure the permissions that your OAuth app requires. This can be done by clicking on the "Edit" button next to the "Scopes" heading on the OAuth app's settings page. GitHub will then display a list of available permissions that you can select from.
+
+Once you have created and configured your OAuth app, you can use it to authenticate API requests to GitHub on behalf of your users. This can be useful for integrating your app with GitHub or for building integrations or tools that interact with GitHub data and functionality.
+
+#### Shared Secret
+[source,console]
+$ openssl rand -hex 16
+
+Is used for communication between drone server and runners
+
+### Step 2 : Installation
+#### Pull Drone Image
+
+[source,console]
+$ docker pull drone/drone:[latest version]
+
+*[latest version] -> 2*
+
+### Step 3 : Configuration
+
+[TODO]
