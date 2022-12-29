@@ -38,6 +38,94 @@ $ docker pull drone/drone:[latest version]
 
 *[latest version] -> 2*
 
-### Step 3 : Configuration
+### Step 3 : NGROK & DRONE Server Setup
 
-[TODO]
+#### Register to NGrok
+-> Get your Ngrok Authtoken
+
+1. start ngrok via docker image
+[source,console]
+docker run -it -e NGROK_AUTHTOKEN=<token> ngrok/ngrok http 80
+
+2. run Drone docker image with following variables :
+
+#### **Volume**
+/var/lib/drone
+/data
+
+#### **DRONE_GITHUB_CLIENT_ID**
+c049c6f2caf1c9e8626e
+*(From your GitHub OAuth App)*
+
+#### **DRONE_GITHUB_CLIENT_SECRET**
+202bc9e4a409fcfd25d78c128d43d723664f05ad
+*(From your GitHub OAuth App)*
+
+#### **DRONE_RPC_SECRET**
+d80949b9fc2717d4949e078cdac552b1 *(previously generated Shared Secret)*
+
+#### **DRONE_SERVER_HOST**
+https://ece8-84-115-228-194.eu.ngrok.io *(ngrok forwarding domain)*
+
+#### **DRONE_SERVER_PROTO**
+https *(depending on ngrok)*
+
+-> For more config. options click
+link:https://docs.drone.io/server/reference/[here]
+
+[%always]
+<<<
+
+### Step 4 : Drone Runner Setup
+
+#### What is a runner?
+A Drone runner is a program or service that executes the steps of a CI/CD pipeline.
+
+In Drone, a pipeline is defined in a configuration file called .drone.yml that is stored in the code repository. This file specifies the steps that should be taken to build, test, and deploy the code, as well as any dependencies or resources required. When a change is made to the code repository, Drone automatically triggers the pipeline to run, and a runner is responsible for executing the steps in the pipeline.
+
+Drone runners can be installed on your own infrastructure or used as a managed service, such as the Drone Cloud. They can be run in a variety of environments, including local development environments, virtual machines, and container orchestration platforms.
+
+Drone runners can be configured to run pipelines in parallel, allowing you to scale your CI/CD process to meet the needs of your team.
+
+Run the drone runner container :
+[source,console]
+$ docker pull drone/drone-runner-docker:1
+
+**Necessary configurations :**
+
+#### **Volume**
+/var/run/docker.sock : /var/run/docker.sock
+
+#### **DRONE_RPC_PROTO**
+http
+
+#### **DRONE_RPC_HOST**
+[OAuth App name]
+
+#### **DRONE_RPC_SECRET**
+d80949b9fc2717d4949e078cdac552b1 *(previously generated Shared Secret)*
+
+#### **DRONE_RUNNER_NAME**
+name the runner as you want
+
+-> For more config. options click
+link:https://docs.drone.io/runner/docker/configuration/reference/[here]
+
+[%always]
+<<<
+
+### Step 5 : Verification
+
+You can verify the state for each docker container by using the
+[source,console]
+$ docker logs runner
+
+command or by clicking on the ngrok link
+
+If everything has been configured correctly, you should be able to see the register screen when accessing the link.
+
+
+### Warning !
+This type of configuration is only one of the many options that Drone provides.
+The instructions for use with other languages and tools can be found
+link:https://docs.drone.io/[here]

@@ -1,1 +1,25 @@
-## Extensions
+## Extensions / Plugins
+
+Drone CI has a number of extensions, or plugins, that can be used to add additional functionality and integrations to the platform. Here are some of the most useful extensions for Drone:
+
+1. **Version control system integrations:** Drone provides integrations with popular version control systems, such as GitHub, GitLab, and Bitbucket, allowing you to trigger pipelines and access repository information directly from the platform.
+ **Examples** : Github / Bitbucket /
+link:https://plugins.drone.io/plugins/gitlab-ci[GitLab]
+
+2. **Cloud platform integrations:** Drone has integrations with various cloud platforms, such as AWS, Google Cloud, and Azure, allowing you to automate the deployment and management of cloud resources as part of your CI/CD pipeline.
+**Examples** : AWS(
+link:https://plugins.drone.io/plugins/ecs[ECS] instances/
+link:https://plugins.drone.io/plugins/s3[S3] buckets) /
+link:https://plugins.drone.io/plugins/acr[Azure]
+
+3. **Notification integrations:** Drone provides integrations with various notification services, such as Slack, email, and SMS, allowing you to receive updates and alerts about the status of your pipelines.
+**Examples** :
+link:https://plugins.drone.io/plugins/slack[Slack]- /
+link:https://plugins.drone.io/plugins/discord[Discord] - notifications
+
+4. **Dependency management:** Drone has built-in support for managing dependencies and resources, making it easy to set up and run pipelines without having to manually configure dependencies and resources.
+
+5. **Code analysis and testing tools:** Drone integrates with a wide range of code analysis and testing tools, such as code coverage tools, static analysis tools, and unit testing frameworks, allowing you to automatically run these tools as part of your pipeline.
+
+6. **Custom plugins:** Drone has a plugin system that allows users to create and share custom plugins to add additional functionality to the platform. This can be useful for extending Drone to meet the specific needs of your team or project.
+link:https://plugins.drone.io/[**Find more**]

@@ -8,6 +8,13 @@
 - https://samuelsson.dev/how-to-install-and-configure-drone-ci-on-a-self-hosted-server/
 - https://www.docker.com/blog/bring-continuous-integration-to-your-laptop-with-the-drone-ci-docker-extension/
 
-### Docker Hub Ressources
+### Docker Hub Resources
 - https://hub.docker.com/r/cimg/openjdk
 - https://hub.docker.com/r/circleci/python
+
+### NGrok Installation
+- https://ngrok.com/download
+- https://dashboard.ngrok.com/get-started/your-authtoken
+
+### Official Harness Quickstart Guide
+- https://www.youtube.com/watch?v=Qf8EHRzAgHQ
