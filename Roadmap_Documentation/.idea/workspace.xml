@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="760f1cf9-75dd-4010-957f-302c0ab57026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Example_Projects/ngrok.setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Five.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Five.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Four.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Four.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Sources.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Sources.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Main.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +68,7 @@
       <workItem from="1671693908473" duration="938000" />
       <workItem from="1672223305095" duration="6020000" />
       <workItem from="1672307535422" duration="6362000" />
+      <workItem from="1672433986562" duration="3794000" />
     </task>
     <servers />
   </component>

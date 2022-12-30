@@ -1,1 +1,28 @@
-## Usage - At runtime
+## Usage - After Server Setup
+
+Connect Drone to your Github account
+
+### Configure Pipelines
+
+Pipelines are used to automate your software delivery process. They are configured via the .drone.yml file, which needs to be placed in the root directory of the project.
+
+[source,yml]
+kind: pipeline
+type: Docker
+name: default
+steps:
+- name: test
+  image: [Preffered Maven Image]
+  commands:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn test -B
+
+#### Signing Config Files
+
+### Configure Webhooks
+The deployment **Trigger** needs to be set up before actually using Drone CI.
+In our case, Github Webhooks do the job perfectly.
+I would recommend configuring the Webhooks so that each main commit will be deployed onto Drone.
+
+
+If everything happens to be setup in the correct way, Drone should execute all steps mentioned in the *.drone.yml* file
