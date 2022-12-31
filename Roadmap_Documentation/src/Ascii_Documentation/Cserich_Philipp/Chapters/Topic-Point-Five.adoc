@@ -19,7 +19,7 @@ link:https://plugins.drone.io/plugins/discord[Discord] - notifications
 
 4. **Dependency management:** Drone has built-in support for managing dependencies and resources, making it easy to set up and run pipelines without having to manually configure dependencies and resources.
 
-5. **Code analysis and testing tools:** Drone integrates with a wide range of code analysis and testing tools, such as code coverage tools, static analysis tools, and unit testing frameworks, allowing you to automatically run these tools as part of your pipeline.
+5. **Code analysis and testing tools:** Drone integrates with a wide range of code analysis and testing tools, such as code coverage^[10]^ tools, static analysis tools, and unit testing^[11]^ frameworks^[12]^, allowing you to automatically run these tools as part of your pipeline.
 
 6. **Custom plugins:** Drone has a plugin system that allows users to create and share custom plugins to add additional functionality to the platform. This can be useful for extending Drone to meet the specific needs of your team or project.
 link:https://plugins.drone.io/[**Find more**]

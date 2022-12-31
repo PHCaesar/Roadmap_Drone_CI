@@ -1,11 +1,11 @@
 ## What is Drone CI?
 
-Drone is a continuous integration and delivery **(CI/CD)** platform that provides a way to automate the building, testing, and deployment of software. It is designed to be lightweight, easy to use, and highly scalable, making it a popular choice for teams looking to streamline their software development and delivery processes.
+Drone is a continuous integration and delivery **(CI/CD)** platform that provides a way to automate the building, testing, and deployment of software. It is designed to be lightweight, easy to use, and highly scalable, making it a popular choice for teams looking to streamline^[1]^ their software development and delivery processes.
 The by far most popular tool operating in that field is called *Jenkins*.
 
-With Drone, developers can define their CI/CD pipelines in a configuration file called .drone.yml that is stored in their code repository. This file specifies the steps that should be taken to build, test, and deploy the code, as well as any dependencies or resources required. When a change is made to the code repository, Drone automatically triggers the pipeline to run, performing the specified steps in order.
+With Drone, developers can define their CI/CD pipelines in a configuration file called .drone.yml that is stored in their code repository^[2]^. This file specifies the steps that should be taken to build, test, and deploy the code, as well as any dependencies or resources required. When a change is made to the code repository, Drone automatically triggers the pipeline to run, performing the specified steps in order.
 
-Drone offers a wide range of features and integrations, including support for multiple programming languages and platforms, automatic dependency management, and integration with popular version control systems and cloud platforms. It also provides a web-based user interface for monitoring and managing pipelines, as well as APIs for integrating with other tools and systems including GitHub and Co.
+Drone offers a wide range of features and integrations, including support for multiple programming languages and platforms, automatic dependency management, and integration with popular version control systems and cloud platforms. It also provides a web-based user interface for monitoring and managing pipelines, as well as APIs^[3]^ for integrating with other tools and systems including GitHub and Co.
 
 ### Who has published Drone CI
 

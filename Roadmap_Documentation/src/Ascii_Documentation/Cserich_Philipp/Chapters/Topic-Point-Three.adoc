@@ -24,14 +24,14 @@ You will also need to configure the permissions that your OAuth app requires. Th
 
 Once you have created and configured your OAuth app, you can use it to authenticate API requests to GitHub on behalf of your users. This can be useful for integrating your app with GitHub or for building integrations or tools that interact with GitHub data and functionality.
 
-#### Shared Secret
+#### Shared Secret^[4]^
 [source,console]
 $ openssl rand -hex 16
 
 Is used for communication between drone server and runners
 
 ### Step 2 : Installation
-#### Pull Drone Image
+#### Pull Drone Image^[5]^
 
 [source,console]
 $ docker pull drone/drone:[latest version]
@@ -41,6 +41,8 @@ $ docker pull drone/drone:[latest version]
 ### Step 3 : NGROK & DRONE Server Setup
 
 #### Register to NGrok
+(Ngrok is just used for the OAuth input -> creating a valid globally reachable host adress)
+
 -> Get your Ngrok Authtoken
 
 1. start ngrok via docker image
@@ -49,25 +51,25 @@ docker run -it -e NGROK_AUTHTOKEN=<token> ngrok/ngrok http 80
 
 2. run Drone docker image with following variables :
 
-#### **Volume**
+###### **Volume**
 /var/lib/drone
 /data
 
-#### **DRONE_GITHUB_CLIENT_ID**
+###### **DRONE_GITHUB_CLIENT_ID**
 c049c6f2caf1c9e8626e
 *(From your GitHub OAuth App)*
 
-#### **DRONE_GITHUB_CLIENT_SECRET**
+###### **DRONE_GITHUB_CLIENT_SECRET**
 202bc9e4a409fcfd25d78c128d43d723664f05ad
 *(From your GitHub OAuth App)*
 
-#### **DRONE_RPC_SECRET**
+###### **DRONE_RPC_SECRET**
 d80949b9fc2717d4949e078cdac552b1 *(previously generated Shared Secret)*
 
-#### **DRONE_SERVER_HOST**
+###### **DRONE_SERVER_HOST**
 https://ece8-84-115-228-194.eu.ngrok.io *(ngrok forwarding domain)*
 
-#### **DRONE_SERVER_PROTO**
+###### **DRONE_SERVER_PROTO**
 https *(depending on ngrok)*
 
 -> For more config. options click
@@ -79,11 +81,11 @@ link:https://docs.drone.io/server/reference/[here]
 ### Step 4 : Drone Runner Setup
 
 #### What is a runner?
-A Drone runner is a program or service that executes the steps of a CI/CD pipeline.
+A Drone runner is a program or service that executes the steps of a CI/CD pipeline^[6][7][8]^.
 
 In Drone, a pipeline is defined in a configuration file called .drone.yml that is stored in the code repository. This file specifies the steps that should be taken to build, test, and deploy the code, as well as any dependencies or resources required. When a change is made to the code repository, Drone automatically triggers the pipeline to run, and a runner is responsible for executing the steps in the pipeline.
 
-Drone runners can be installed on your own infrastructure or used as a managed service, such as the Drone Cloud. They can be run in a variety of environments, including local development environments, virtual machines, and container orchestration platforms.
+Drone runners can be installed on your own infrastructure or used as a managed service, such as the Drone Cloud. They can be run in a variety of environments, including local development environments, virtual machines, and container^[9]^ orchestration platforms.
 
 Drone runners can be configured to run pipelines in parallel, allowing you to scale your CI/CD process to meet the needs of your team.
 
@@ -93,19 +95,19 @@ $ docker pull drone/drone-runner-docker:1
 
 **Necessary configurations :**
 
-#### **Volume**
+###### **Volume**
 /var/run/docker.sock : /var/run/docker.sock
 
-#### **DRONE_RPC_PROTO**
+###### **DRONE_RPC_PROTO**
 http
 
-#### **DRONE_RPC_HOST**
+###### **DRONE_RPC_HOST**
 [OAuth App name]
 
-#### **DRONE_RPC_SECRET**
+###### **DRONE_RPC_SECRET**
 d80949b9fc2717d4949e078cdac552b1 *(previously generated Shared Secret)*
 
-#### **DRONE_RUNNER_NAME**
+###### **DRONE_RUNNER_NAME**
 name the runner as you want
 
 -> For more config. options click

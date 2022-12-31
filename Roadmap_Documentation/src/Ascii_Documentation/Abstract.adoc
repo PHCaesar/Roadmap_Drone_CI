@@ -1,1 +1,51 @@
 ## Abstract
+
+- [1] Streamline
+
+.To streamline means to simplify or improve the efficiency of a process or system by removing unnecessary steps or elements.
+
+- [2] Repository
+
+.A repository is a place where data, information, or resources are stored and organized, often in a systematic way.
+
+- [3] API
+
+.An API, or Application Programming Interface, is a set of protocols and tools for building software applications. It specifies how software components should interact and provides a way for different systems to communicate with each other. APIs are often used to allow different systems to access the functionality of a software library or web service.
+
+- [4] Shared Secret
+
+.A shared secret is a piece of information that is known only to a limited number of people and is used to authenticate the identity of a person or device.
+
+- [5] Image
+
+.In the context of Docker, an image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the application code, libraries, dependencies, and runtime.
+
+- [6] CI (Continous Integration)
+
+.Continuous integration (CI) is a software development practice in which code changes are automatically built, tested, and integrated into a shared repository on a frequent basis.
+
+- [7] CD (Continous Delivery)
+
+.Continuous delivery (CD) is a software development practice in which code changes are automatically built, tested, and made available for deployment on a frequent basis. The goal of CD is to make it possible to deploy code changes to production environments at any time, with minimal manual effort.
+
+- [8] Pipeline
+
+.A pipeline is a series of processes or stages through which something passes, typically involving the sequential execution of tasks or the transportation of goods.
+
+- [9] Container
+
+.In the context of Docker, a container is a lightweight, standalone, executable package that includes everything needed to run a piece of software, including the application code, libraries, dependencies, and runtime. Containers are built from Docker images and provide a portable, isolated environment for running applications.
+
+- [10] Code coverage
+
+.Code coverage is a measure of how much of the source code of a software application has been tested.
+
+- [11] Unit testing
+
+.Unit testing is a software testing technique in which individual units or components of a software application are tested in isolation from the rest of the application.
+
+- [12] Framework
+
+.A framework is a set of libraries, tools, and conventions for building and organizing code in a specific programming language or environment.
+
+-

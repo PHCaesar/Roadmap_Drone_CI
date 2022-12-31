@@ -6,16 +6,81 @@ Connect Drone to your Github account
 
 Pipelines are used to automate your software delivery process. They are configured via the .drone.yml file, which needs to be placed in the root directory of the project.
 
+You can setup pipelines for any preference.
+With Docker, Kubernetes , SSH / Exec Commands ...
+
+-> Pipeline types are specified via the **type** tag *(as highlighted below)*
+
+###### Java Example :
+
 [source,yml]
 kind: pipeline
-type: Docker
+**type: Docker**
+name: java example              #pipelinename
+steps:
+- name: test                    #name of this step
+  image: [Preffered Maven Image]
+  commands:
+  - mvn install
+  - mvn test                    #runs the tests
+- name: build                   #name of this step
+  image: [Preffered Maven Image]
+  commands:
+  - mvn install
+  - mvn build                   #builds the software
+
+###### Python Example :
+
+[source,yml]
+kind: pipeline
+**type : docker**
 name: default
 steps:
 - name: test
-  image: [Preffered Maven Image]
-  commands:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - mvn test -B
+image: python
+commands:
+- pip install pytest
+- pytest
+
+Seperating multiple pipelines in this document, requires one line of **---** before and after every single pipeline
+
+###### Node Example :
+
+[source,yml]
+---
+kind: pipeline
+name: node6
+steps:
+- name: test
+image: node:6
+commands:
+- npm install
+- npm test
+---
+kind: pipeline
+name: node8
+steps:
+- name: test
+image: node:8
+commands:
+- npm install
+- npm test
+...
+
+.**Explanation :** This file is testing the software in multiple node versions
+
+`.drone.yml` files are always configured in the same way. At first you need to define that it is a pipeline and what name it has, followed by the deployment steps.
+
+(WARNING : The configuration depends on the pipeline type that is used and will always look different)
+
+Deployment steps always include image and build commands. They can be used in many different ways, for example testing, building, deploying ...
+
+
+
+link:https://docs.drone.io/pipeline/overview/[See pipeline reference]
+
+Generic .drone.yml files configured for an individual programming language can be found
+link:https://docs.drone.io/[right here]
 
 #### Signing Config Files
 

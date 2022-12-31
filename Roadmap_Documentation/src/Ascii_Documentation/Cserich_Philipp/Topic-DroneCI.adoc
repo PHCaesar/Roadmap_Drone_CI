@@ -1,5 +1,16 @@
 # Drone CI
 
+By Cserich Philipp
+
+This technical Paper aims to give a broad introduction into the world of Drone **(by harness)**.
+It provides one possible setup and several examples how to configure drone for your individual project.
+
+For further information about Drones functionality, extensions and more advanced usage, visit the original documentation.
+
+.All sources and many useful guidelines can be found on the last page.
+
+link:../Sources.adoc[-> Skip content to access links]
+
 include::Chapters/Topic-Point-One.adoc[]
 
 include::Chapters/Topic-Point-Two.adoc[]
