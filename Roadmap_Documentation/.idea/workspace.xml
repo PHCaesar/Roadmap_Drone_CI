@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="760f1cf9-75dd-4010-957f-302c0ab57026" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Abstract.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Abstract.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cover.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cover.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Five.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Five.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Four.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Four.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-One.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-One.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Topic-DroneCI.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Cserich_Philipp/Topic-DroneCI.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ascii_Documentation/Main.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ascii_Documentation/Main.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,6 +69,7 @@
       <workItem from="1672307535422" duration="6362000" />
       <workItem from="1672433986562" duration="3794000" />
       <workItem from="1672490222985" duration="6190000" />
+      <workItem from="1673202297160" duration="686000" />
     </task>
     <servers />
   </component>

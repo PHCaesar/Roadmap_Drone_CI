@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd8ed8a-f38e-4007-a449-8134f5100790" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Example_Projects/ngrok.setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roadmap_Documentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_Documentation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Cserich_Philipp/Chapters/Topic-Point-Three.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Sources.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Sources.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Main.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmap_Documentation/src/Ascii_Documentation/Main.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Roadmap_Documentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,6 +48,7 @@
       <workItem from="1671523068976" duration="354000" />
       <workItem from="1671651070673" duration="480000" />
       <workItem from="1672310028282" duration="636000" />
+      <workItem from="1673203005196" duration="164000" />
     </task>
     <servers />
   </component>

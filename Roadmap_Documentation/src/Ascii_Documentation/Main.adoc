@@ -5,7 +5,6 @@
 :toc-class:
 :toc: middle
 
-
 include::Cover.adoc[]
 
 include::Topics.adoc[]
